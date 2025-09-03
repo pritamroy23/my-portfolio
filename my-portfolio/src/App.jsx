@@ -1,5 +1,5 @@
 import React from "react";
-/*import Header from './components/header';
+import Header from './components/header';
 import Home from './components/home';
 import About from './components/about';
 import Projects from './components/projects';
@@ -9,7 +9,7 @@ import Footer from './components/footer';
 import './App.css';
 function App() {
   return (
-    <div>
+    <div className="mx-auto max-w-5xl px-4">
       <Header />
       <Home />
       <About />
@@ -21,16 +21,5 @@ function App() {
     
   );
 }
-export default App; */
+export default App; 
 
-function App() {
-  return (
-    <div className="space-y-4">
-      <h1 className="text-5xl text-red-600 font-bold">This should be RED</h1>
-      <h1 className="text-5xl text-blue-600 font-bold">This should be BLUE</h1>
-      <h1 className="text-5xl text-green-600 font-bold">This should be GREEN</h1>
-    </div>
-  );
-}
-
-export default App;
