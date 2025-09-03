@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
     return (
-        <header>
+        <header className="bg-gray-900 text-white p-4 text-center text-2xl font-bold">
             <h1>my portfolio</h1>
             <nav>
                 <a href="#home">home</a>
