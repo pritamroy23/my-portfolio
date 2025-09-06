@@ -6,7 +6,7 @@ function Header() {
             <div className ="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
                <h1 className="tracking-tight font-bold text-xl">my portfolio</h1>
                <nav className="space-x-6 hover:text-indigo-400 transition">
-                   <a href="#home">home</a>
+                   <a href="#home" >home</a>
                    <a href="#about">about</a>
                    <a href="#about">projects</a>
                    <a href="#about">skills</a>
