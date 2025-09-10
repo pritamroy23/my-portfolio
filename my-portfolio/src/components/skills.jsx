@@ -5,9 +5,9 @@ function Skills() {
   for(let i=0; i<skills.length; i++ ) {
     const s = skills[i];
     skillsElements.push(
-      <span key="s" className="rounded-full border border-slate-700 bg-slate-900/50 hover:bg-slate-900 px-3 py-1 text-sm">{s}</span>
-
-    )
+      <span key="s" className="rounded-full border border-slate-700 bg-slate-900/50 hover:bg-slate-900 px-3 py-1 text-sm  transition-transform duration200 hover:-translate-y-1 hovershadow-lg">{s}</span>
+      //added a slight animation into skills bubbles
+    )  
   }
   return (
     <section id="skills" className="py-16 border-t border-slate-800">
