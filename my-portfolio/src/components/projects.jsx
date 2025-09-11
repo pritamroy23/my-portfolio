@@ -23,7 +23,7 @@ for(let i=0; i<items.length; i++) {
 
         <a className="rounded-md bg-indigo-500 px-3 py-1 text-sm font-medium text-white hover:bg-indigo-600 transition" href="#">Live</a>  
         
-        <a className="rounded border order-slate-600 px-3 py-1 text-sm hover:bg-slate-900" href="#">Code</a>
+        <a className="rounded border order-slate-600 px-3 py-1 text-sm hover:bg-slate-700" href="#">Code</a>
 
       </div>
 
