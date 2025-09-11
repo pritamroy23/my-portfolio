@@ -1,10 +1,10 @@
-import React from "react";
-function Footer() {
+import React from 'react';
+
+export default function Footer() {
   return (
-    <footer>
-      <p>© 2025 Pritam Roy. All rights reserved.</p>
+    <footer className="py-10 border-t border-slate-800 text-center text-sm text-slate-400">
+      © {new Date().getFullYear()} Pritam Roy • Built with React & Tailwind
     </footer>
   );
 }
 
-export default Footer;
