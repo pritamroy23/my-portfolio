@@ -8,9 +8,9 @@ function Header() {
                <nav className="space-x-6">
                    <a href="#home" className="hover:text-indigo-400 transition">home</a>
                    <a href="#about" className="hover:text-indigo-400 transition">about</a>
-                   <a href="#about"className="hover:text-indigo-400 transition">projects</a>
-                   <a href="#about"className="hover:text-indigo-400 transition">skills</a>
-                   <a href="#about"className="hover:text-indigo-400 transition">contact</a>
+                   <a href="projects"className="hover:text-indigo-400 transition">projects</a>
+                   <a href="#skills"className="hover:text-indigo-400 transition">skills</a>
+                   <a href="#contact"className="hover:text-indigo-400 transition">contact</a>
                 </nav>
             </div>
             

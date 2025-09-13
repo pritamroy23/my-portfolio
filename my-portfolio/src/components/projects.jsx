@@ -33,9 +33,9 @@ for(let i=0; i<items.length; i++) {
 }
 
   return (
-    <section id="projects " className="py-16 border-t border-slate-800">
+    <section id="projects" className="py-16 border-t border-slate-800">
 
-      <h2 className="text-3xl font-bold mb-6"> Projects</h2>
+      <h2 className="text-3xl font-bold mb-6">Projects</h2>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">{projectsCads}</div>
    
