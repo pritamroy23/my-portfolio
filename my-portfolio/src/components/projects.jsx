@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
 
   const items = [
-  {title: 'Age Prediction Of Book Pages', desc: 'This project focuses on classifying scanned book pages by their publication year using grayscale-based statistical features like entropy, skewness, and contrast — enhanced with histogram equalization and data augmentation techniques.'},
+  {title: 'Age Prediction Of Book Pages', desc: 'ML project predict the age of book pages by their publication year using grayscale-based statistical features'},
   {title: 'E-commerce Website', desc: 'A full-featured e-commerce website built with React and Node.js.'},
   {title: 'Habit Tracker Web Application', desc: 'A web app to track your daily habits . you can schedule your tusks to complete. also it you give you score based on your achievements!'},
 ];
