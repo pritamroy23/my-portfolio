@@ -3,9 +3,9 @@ import React from "react";
 function Projects() {
 
   const items = [
-  {title: 'Print Quality Analyzer', desc: 'A tool to analyze print quality using image processing techniques.'},
+  {title: 'Age Prediction Of Book Pages', desc: 'This project focuses on classifying scanned book pages by their publication year using grayscale-based statistical features like entropy, skewness, and contrast — enhanced with histogram equalization and data augmentation techniques.'},
   {title: 'E-commerce Website', desc: 'A full-featured e-commerce website built with React and Node.js.'},
-  {title: 'Recipe Builder', desc: 'An application to create and share recipes with a community.'},
+  {title: 'Habit Tracker Web Application', desc: 'A web app to track your daily habits . you can schedule your tusks to complete. also it you give you score based on your achievements!'},
 ];
 
 const projectsCads = [];
