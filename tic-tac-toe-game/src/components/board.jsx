@@ -38,9 +38,16 @@ const Board = () =>
         setisxTurn(!isxTurn);
 
     }
+    const handleReset =() => {
+        setState (Array(9).fill(null));
+    }
     return (
         <div className='board-container'>
-            {iswinner ? (<>some one won </>) : (<>
+            {iswinner ? (<>{iswinner} won the game.
+        <button onClick={handleReset}>play again</button> </>
+        ) : 
+        (<>
+            <h4>please {isxTurn? "X" : "O"} move</h4>
             <div className='board-row'>
                 <Square onClick={()=>handleclick(0)} value ={state[0]}/>
                 <Square onClick={()=>handleclick(1)} value ={state[1]}/>
